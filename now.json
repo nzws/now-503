@@ -1,0 +1,12 @@
+{
+    "name": "now-503",
+    "public": false,
+    "github": { "silent": true },
+    "version": 2,
+    "routes": [
+      {
+        "src": "/(.*)",
+        "status": 503
+      }
+    ]
+  }
